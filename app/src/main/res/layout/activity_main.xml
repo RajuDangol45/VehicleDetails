@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Type and Run"
-        android:textSize="26sp" />
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="14sp"
             android:id="@+id/activity_main_name"/>
 
         <TextView
@@ -38,7 +38,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="14sp"
             android:id="@+id/activity_main_year"/>
 
         <TextView
@@ -50,7 +50,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="14sp"
             android:id="@+id/activity_main_color"/>
 
         <TextView
@@ -62,7 +62,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="14sp"
             android:id="@+id/activity_main_price"/>
 
         <TextView
@@ -74,7 +74,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:textSize="14sp"
             android:id="@+id/activity_main_size"/>
 
         <LinearLayout

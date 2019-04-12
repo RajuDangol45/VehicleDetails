@@ -35,14 +35,14 @@ public class MainActivity extends AppCompatActivity {
         createCar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Car car = new Car(name.getText().toString(),year.getText().toString(),color.getText().toString(),price.getText().toString(),size.getText().toString(),)
+                Car car = new Car(name.getText().toString(),year.getText().toString(),color.getText().toString(),price.getText().toString(),size.getText().toString());
                 vehicleNumber++;
-                result.setText(result.getText()+ "\n \n" +
+                result.setText(result.getText() +
                         "This is vehicle No."+ vehicleNumber+
                         "\n"+
                         "Manufacturer: "+ car.getName() + ","+
                         "Current value: "+ car.getPrice() + ","+
-                        "Effective engine size:" + car.getSize());
+                        "Effective engine size:" + car.getSize() + "\n \n");
             }
         });
     }
